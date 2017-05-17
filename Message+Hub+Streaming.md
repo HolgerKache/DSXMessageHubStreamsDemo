@@ -5,17 +5,7 @@
 
 In this python notebook, you will learn how to simulate streams by pushing sample messages to Message Hub which is currently based on Kafka 0.10.0.1. You will also consume these messages to perform analytics.
 
-Message Hub is a cloud-based platform as a service technology predestined for streaming batch and real-time data to run analytics applications. Thereby you are able to gain valuable insights into your data. We will use the [Kafka Rest API](https://console.ng.bluemix.net/docs/services/MessageHub/messagehub025.html#messagehub025 "Documentation") which is designed to provide a quick start for beginners. Once you are finished you are ready to use the main [Kafka API](https://console.ng.bluemix.net/docs/services/MessageHub/messagehub050.html#messagehub050 "Documentation") which is used for high throughout use cases. Especially in the era of the Internet of Things there will be many application scenarios. So let's get started. 
-
-## Table of contents
-
-1.	[Basics](#basics)
-2.	[Setup and preparation](#setup-and-preparation)
-3.	[Create a Kafka consumer group and consumer instance](#text)
-4.	[Push a message event to Kafka](#text)
-5.	[Receive a message event from Kafka](#text)
-6.	[Perform analytics to gain insights](#text)
-
+Message Hub is a cloud-based platform as a service technology predestined for streaming batch and real-time data to run analytics applications. Thereby you are able to gain valuable insights into your data. We will use the [Kafka Rest API](https://console.ng.bluemix.net/docs/services/MessageHub/messagehub025.html#messagehub025 "Documentation") which is designed to provide a quick start for beginners. Once you are finished you are ready to use the main [Kafka API](https://console.ng.bluemix.net/docs/services/MessageHub/messagehub050.html#messagehub050 "Documentation") which is used for high throughout use cases. Especially in the era of the Internet of Things there will be many application scenarios. So let's get started.
 
 ## 1. Basics
 
