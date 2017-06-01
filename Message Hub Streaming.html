@@ -933,7 +933,7 @@ div#notebook {
 <li>Cluster </li>
 </ul>
 <p>A producer sends a message to a specific topic within a Kafka cluster and a consumer receives this message by subscribing to this topic.</p>
-<p>A message can be addressed to a specific consumer group. The message is sent only to one consumer instance. The benefit is that the process of sending a message from end to end can be done in a shorter period of time. After the message is sent, the consumer instance shares the received message with the whole group.</p>
+<p>Consumers can join what is called a Consumer Group. Within the group, only one consumer will get to process the message. Grouping consumers like that is useful for parallel processing of messages in high-throughput applications.</p>
 
 </div>
 </div>
